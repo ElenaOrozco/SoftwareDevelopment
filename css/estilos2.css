@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+/* Header */
+.logo {
+    background: url(../1.jpg);
+    background: (0,0,0,.7);
+    background-size: cover;
+    height: 100vh;
+}
+.logo .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation-duration: 1s;
+    animation-name: slideInUp;
+}
+.logo .principal .titulo{
+	font-size: 2.6em;
+	margin: 0.67em 0;
+	text-align: center;
+	color: #fff;
+}
+.logo .principal a{
+	background-color: #09090999;
+	-webkit-text-decoration-skip: objects;
+	border: 1px solid #0fcabf;
+	padding: 1em 2.8em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.logo header{
+	top:0;
+}
+/* Generales */
+.contenedor {
+    width: 95%;
+    margin: auto;
+}
+.titulo-section{
+	text-align: center;
+    color: #3e3e3e;
+    font-size: 3rem;
+  }
+/* Servicios */
+
+.servicios .contenedor-servicios .item-servicio {
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicios .contenedor-servicios .item-servicio .icono {
+    padding: 3rem;
+    font-size: 2rem;
+}
+.servicios .contenedor-servicios .item-servicio .icono-titulo {
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+/* trabajos */
+.trabajos{
+	background: rgba(0, 0, 0, 0.02);
+}
+.trabajos .galeria {
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.trabajos .galeria .item-galeria {
+    background: #fff;
+    border-color: 1px solid #c1c1c1;
+    border-radius: px;
+    width: 100%;
+    margin: 40px 0px;
+}
+.imagen {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.trabajos .galeria .item-galeria .imagen-titulo .titulo-trabajos {
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
